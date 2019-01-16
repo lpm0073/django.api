@@ -26,10 +26,10 @@ API_DESCRIPTION = 'A Web API for creating and editing blog posts.'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include('posts.urls')),
-    path('api-auth/', include('rest_framework.urls')),
-    path('api/v1/rest-auth/', include('rest_auth.urls')),
-    path('api/v1/rest-auth/registration/', include('rest_auth.registration.urls')),
+    path('api/auth/', include('rest_framework.urls')),
+    path('api/auth/', include('rest_auth.urls')),
+    path('api/auth/registration/', include('rest_auth.registration.urls')),
     path('api/docs/', include_docs_urls(title=API_TITLE, description=API_DESCRIPTION)),
-    path('api/schema/', get_schema_view(title=API_TITLE)),
-    path('api/docs-swagger/', get_swagger_view(title=API_TITLE)),
+    path('api/docs/schema/', get_schema_view(title=API_TITLE)),
+    path('api/docs/swagger/', get_swagger_view(title=API_TITLE)),
 ]

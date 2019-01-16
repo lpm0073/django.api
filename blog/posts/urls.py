@@ -4,5 +4,5 @@ from rest_framework.routers import SimpleRouter
 
 router = SimpleRouter()
 router.register('users', UserViewSet, base_name='users')
-router.register('', PostViewSet, base_name='posts')
+router.register('posts', PostViewSet, base_name='posts')
 urlpatterns = router.urls

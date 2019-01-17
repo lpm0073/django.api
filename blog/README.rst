@@ -23,12 +23,17 @@ Requirements
 
 Installation
 =====
+
 ::
+
   $ pip3 install pipenv
   $ pipenv install
   $ pipenv shell
   (blog) $ python manage.py migrate
   (blog) $ python manage.py runserver
+
+
+
 
 https://djangoforbeginners.com/initial-setup/
 

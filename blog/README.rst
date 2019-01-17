@@ -1,7 +1,9 @@
 Django REST API sample app
 =====
 Fast, flexible and robust solution to expose REST API resources backed by Django models.
-Features:
+
+Features
+=====
 -  self documenting
 -  api version control
 -  fully extends Django's ORM and User model

@@ -1,6 +1,7 @@
 Django REST API sample app
 =====
 Fast, flexible and robust solution to expose REST API resources backed by Django models.
+Features:
 - self documenting
 - api version control
 - fully extends Django's ORM and User model
@@ -12,12 +13,12 @@ Fast, flexible and robust solution to expose REST API resources backed by Django
 
 Requirements
 =====
-Python 3.7
-pip3
-pipenv
-Git
-Node
-Npm
+:Python 3.7
+:pip3
+:pipenv
+:Git
+:Node
+:Npm
 
 
 Installation
@@ -34,20 +35,20 @@ https://djangoforbeginners.com/initial-setup/
 
 API Endpoints
 =====
-/api/v1/posts/
-/api/v1/posts/{i}
-/api/v1/users/
-/api/v1/users/{i}
+:/api/v1/posts/
+:/api/v1/posts/{i}
+:/api/v1/users/
+:/api/v1/users/{i}
 
-/admin/
-/api/docs/
-/api/docs/schema
-/api/docs/swagger
+:/admin/
+:/api/docs/
+:/api/docs/schema
+:/api/docs/swagger
 
-/api/auth/login/
-/api/auth/logout/
-/api/auth/password/change/
-/api/auth/password/reset/
-/api/auth/password/reset/confirm/
-/api/auth/registration/
-/api/auth/user/
+:/api/auth/login/
+:/api/auth/logout/
+:/api/auth/password/change/
+:/api/auth/password/reset/
+:/api/auth/password/reset/confirm/
+:/api/auth/registration/
+:/api/auth/user/
